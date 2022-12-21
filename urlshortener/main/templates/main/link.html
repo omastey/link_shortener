@@ -1,0 +1,23 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+
+<p><h1 style="white-space: post-line;">Your URL has been shortened!</h1></p>
+
+
+<p>
+  <div class="mdc-card__content">
+    <p>Shortened URL: <a href="{{shortened_url}}" style="white-space: pre-line;">{{shortened_url}}</a></p>
+  </div>
+</p>
+
+
+
+<!-- <p>
+  <br>
+  <br><br><br><br><br><br>
+  
+  <a href="urlshortener/main/templates/main/index.html" style="text-align: -1000px;">Shorten Another URL</a>
+</p> -->
+
+{% endblock %}
